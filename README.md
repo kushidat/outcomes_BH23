@@ -2,6 +2,8 @@
 
 ## [DBCLS BioHackathon 2023](https://2023.biohackathon.org/)  
 
+## [RIKEN BioResource SPARQL endpoint](https://knowledge.brc.riken.jp/sparql)
+
 ## Outcomes 
 ### Title: 
 Exploration of model mice relevant to human phenotypes and diseases using HP-MP mapping data  
