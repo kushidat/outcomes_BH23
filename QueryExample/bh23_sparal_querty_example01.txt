@@ -1,1 +1,27 @@
-
+# Finding of model mice relevant to HP terms, OMIM and ORDO diseases.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?mouse ?hp ?disease
+WHERE {
+# mouse-mp from Bioresource KG by RIKEN BRC
+	graph <http://metadb.riken.jp/db/mouse_mp>{ 
+		?mouse <http://purl.obolibrary.org/obo/RO_0002200> ?mp.
+		 }
+		{
+			SELECT * WHERE {
+			#HP-MP from some projects(e.g.,SSSOM, uPheno)
+			graph <http://metadb.riken.jp/db/integratedHP_MP>{
+				[ rdf:subject ?hp ;
+				#rdf:predicate ?predicate ;
+				rdf:object ?mp ] . 
+				# FILTER regex(STR(?mp), "MP_")
+					 }		 
+			#HP-OMIM, ORDO from Monarch KG by Monarch Initiative
+			graph <http://metadb.riken.jp/db/monarch_kg>{
+				 ?disease	<https://w3id.org/biolink/vocab/has_phenotype> ?hp.
+				FILTER (regex(STR(?disease), "ORDO") || regex(STR(?disease), "OMIM"))
+				# FILTER (regex(STR(?disease), "ORDO"))
+				# FILTER (regex(STR(?disease), "OMIM"))
+				 }
+		} 
+	}
+}
