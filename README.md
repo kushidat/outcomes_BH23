@@ -20,11 +20,11 @@ Leveraging human phenotype and disease information, we extend the information on
 ### Materials and Method:  
   - Collecting the existing HP-MP mapping data (e.g., mp hp-align equiv, Mapping commons (mh_mapping_initiative), SSSOM, uPheno, uPheno2)
   - Generating the [HP-MP RDF data](https://github.com/kushidat/outcomes_BH23/blob/main/Data/hp_mp_mapping.ttl) from the HP-MP mapping data.
-  - Integrating the Bioresource KG with the HP-MP mapping RDF data and HPO annotation data within Monarch KG (Figure X).
+  - Integrating the Bioresource KG with the HP-MP mapping RDF data and HPO annotation data within Monarch KG ([Figure X](https://github.com/kushidat/outcomes_BH23/blob/main/Figure/FigureX.png)).
   - Executing a [SPARQL query](https://github.com/kushidat/outcomes_BH23/blob/main/QueryExample/bh23_sparal_querty_example01.txt) for the integrated bioresource KGs to explore model mice relevant to human phenotype and diseases.
   
 ### Outcomes:  
-We obtained 1875 mice relevant to 8834 HP terms and 1846 mice applicable to 7833 OMIM and 4259 Orphanet Rare Disease Ontology (ORDO) terms (Figure X). However, we could not conclude the 1846 mice were disease models because the mice just related to human phenotypes associated with diseases.  
+We obtained 1875 mice relevant to 8834 HP terms and 1846 mice applicable to 7833 OMIM and 4259 Orphanet Rare Disease Ontology (ORDO) terms ([Figure Y](https://github.com/kushidat/outcomes_BH23/blob/main/Figure/FigureY.png)). However, we could not conclude the 1846 mice were disease models because the mice just related to human phenotypes associated with diseases.  
   
 ### Future work:  
   - Evaluation of the effectiveness of the existing HP-MP mapping data using human curation and AI technology  (e.g., TM, LLM).
