@@ -17,7 +17,7 @@ Leveraging human phenotype and disease information, we extend the information on
   
 ### Materials and Method:  
   - Collecting the existing HP-MP mapping data (e.g., mp hp-align equiv, Mapping commons (mh_mapping_initiative), SSSOM, uPheno, uPheno2)
-  - Generating the HP-MP RDF data from the HP-MP mapping data.
+  - Generating the [HP-MP RDF data](https://github.com/kushidat/outcomes_BH23/blob/main/Data/hp_mp_mapping.ttl) from the HP-MP mapping data.
   - Integrating the Bioresource KG with the HP-MP mapping RDF data and HPO annotation data within Monarch KG (Figure X).
   - Executing a SPARQL query for the integrated bioresource KGs to explore model mice relevant to human phenotype and diseases (SPARQL query example).
   
