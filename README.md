@@ -11,7 +11,7 @@ Exploration of model mice relevant to human phenotypes and diseases using HP-MP 
 KUSHIDA Tatsuya (RIKEN BRC), SHIN, Jae-Moon (DBCLS), and MASUYA Hiroshi (RIKEN BRC)   
   
 ### Background:
-RIKEN BioResource Research Center (BRC) is constructing a bioresource knowledge graph (KG). The users can explore their bioresources (e.g., RIKEN mice relevant to specific MP terms.) for the KG. 　
+RIKEN BioResource Research Center (BRC) is constructing a bioresource knowledge graph (KG). The users can explore their bioresources (e.g., RIKEN BRC mice relevant to specific MP terms.) for the KG. 　
   
 ### Aims: 
 Leveraging human phenotype and disease information, we aimed to expand the information on model mice expected to be used for health care and medical research.　　　 
