@@ -2,7 +2,6 @@
 
 ## [DBCLS BioHackathon 2023](https://2023.biohackathon.org/)  
 
-## [RIKEN BioResource SPARQL endpoint](https://knowledge.brc.riken.jp/sparql)
 
 ## Outcomes 
 ### Title: 
@@ -22,6 +21,7 @@ Leveraging human phenotype and disease information, we aimed to expand the infor
   - Generating the [HP-MP RDF data](https://github.com/kushidat/outcomes_BH23/blob/main/Data/hp_mp_mapping.ttl) from the HP-MP mapping data.
   - Integrating the Bioresource KG with the HP-MP RDF data and HPO annotation data within Monarch KG ([Figure X](https://github.com/kushidat/outcomes_BH23/blob/main/Figure/FigureX.png)).
   - Executing a [SPARQL query](https://github.com/kushidat/outcomes_BH23/blob/main/QueryExample/bh23_sparal_querty_example01.txt) for the integrated bioresource KGs to explore model mice relevant to human phenotype and diseases.
+  - Bioresource SPARQL endpoint: https://knowledge.brc.riken.jp/sparql 
   
 ### Outcomes:  
 We obtained 1875 mice relevant to 8834 HP terms and 1846 mice applicable to 7833 OMIM and 4259 Orphanet Rare Disease Ontology (ORDO) terms ([Figure Y](https://github.com/kushidat/outcomes_BH23/blob/main/Figure/FigureY.png)). However, we could not conclude the 1846 mice were disease models because the mice just related to human phenotypes associated with diseases.  
